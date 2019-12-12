@@ -1,0 +1,22 @@
+<templateSet group="Vue">
+  <template name="vemit" value="this.$emit('$END$')" description="Vue emit" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="VUE_COMPONENT_DESCRIPTOR" value="true" />
+    </context>
+  </template>
+  <template name="vdispatch" value="this.$store.dispatch('$END$')" description="Vue dispatch" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="VUE_COMPONENT_DESCRIPTOR" value="true" />
+    </context>
+  </template>
+  <template name="vpush" value="this.$router.push({&#10;  name: '$END$'&#10;})" description="Vue router push" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="VUE_COMPONENT_DESCRIPTOR" value="true" />
+    </context>
+  </template>
+  <template name="vrefs" value="this.$refs['$END$']" description="Vue refs" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="VUE_COMPONENT_DESCRIPTOR" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,7 @@
+<templateSet group="小程序">
+  <template name="image" value="&lt;image class=&quot;&quot; src=&quot;./imgs/$END$.png&quot; /&gt;" description="小程序图片" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,12 @@
+<templateSet group="myGroup">
+  <template name="jqo" value="$(&quot;$END$&quot;)" description="创建一个JQuery选择器对象" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="each" value="$.each($END$,function(index,item){&#10;               &#10;});" description="jquery循环" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
