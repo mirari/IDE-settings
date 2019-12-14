@@ -13,6 +13,13 @@
   <action id="SurroundWith">
     <keyboard-shortcut first-keystroke="ctrl alt t" second-keystroke="ctrl alt slash" />
   </action>
+  <action id="UpdateRunningApplication" />
+  <action id="android.deploy.ApplyChanges">
+    <keyboard-shortcut first-keystroke="ctrl f10" />
+  </action>
+  <action id="android.deploy.CodeSwap">
+    <keyboard-shortcut first-keystroke="ctrl alt f10" />
+  </action>
   <action id="com.eslint">
     <keyboard-shortcut first-keystroke="alt l" />
   </action>
