@@ -51,4 +51,14 @@
       <option name="Vue" value="true" />
     </context>
   </template>
+  <template name="sett" value="setTimeout(() =&gt; {&#10;  $END$&#10;}, 3000)" description="setTimeout" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="seti" value="setInterval(() =&gt; {&#10;  $END$&#10;}, 3000)" description="setInterval" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
