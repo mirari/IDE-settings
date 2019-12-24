@@ -258,9 +258,13 @@
           <option name="url" value="http://192.168.2.112/sishu-vue/hulkbuster-emun.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://192.168.2.112/sishu-vue/vue-component.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\Workspaces\Web" />
+    <option name="cloneParentDir" value="C:\Workspaces\Web\sigmayun" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COLUMN_ORDER">
